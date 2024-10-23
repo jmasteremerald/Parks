@@ -11,6 +11,9 @@
 		AE5A54D42CC88162006F29CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A54D32CC88162006F29CB /* ContentView.swift */; };
 		AE5A54D62CC88164006F29CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5A54D52CC88164006F29CB /* Assets.xcassets */; };
 		AE5A54DA2CC88164006F29CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5A54D92CC88164006F29CB /* Preview Assets.xcassets */; };
+		AE5A54E12CC88352006F29CB /* ParksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A54E02CC88352006F29CB /* ParksResponse.swift */; };
+		AE5A54E72CC8982C006F29CB /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A54E62CC8982C006F29CB /* ParkDetailView.swift */; };
+		AE5A54E92CC8A065006F29CB /* park_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5A54E82CC8A065006F29CB /* park_mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		AE5A54D52CC88164006F29CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5A54D72CC88164006F29CB /* Parks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parks.entitlements; sourceTree = "<group>"; };
 		AE5A54D92CC88164006F29CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5A54E02CC88352006F29CB /* ParksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksResponse.swift; sourceTree = "<group>"; };
+		AE5A54E62CC8982C006F29CB /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
+		AE5A54E82CC8A065006F29CB /* park_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = park_mock.json; path = ../../../Downloads/park_mock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				AE5A54D12CC88162006F29CB /* ParksApp.swift */,
+				AE5A54E62CC8982C006F29CB /* ParkDetailView.swift */,
 				AE5A54D32CC88162006F29CB /* ContentView.swift */,
+				AE5A54E02CC88352006F29CB /* ParksResponse.swift */,
+				AE5A54E82CC8A065006F29CB /* park_mock.json */,
 				AE5A54D52CC88164006F29CB /* Assets.xcassets */,
 				AE5A54D72CC88164006F29CB /* Parks.entitlements */,
 				AE5A54D82CC88164006F29CB /* Preview Content */,
@@ -128,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5A54DA2CC88164006F29CB /* Preview Assets.xcassets in Resources */,
+				AE5A54E92CC8A065006F29CB /* park_mock.json in Resources */,
 				AE5A54D62CC88164006F29CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE5A54D42CC88162006F29CB /* ContentView.swift in Sources */,
+				AE5A54E12CC88352006F29CB /* ParksResponse.swift in Sources */,
 				AE5A54D22CC88162006F29CB /* ParksApp.swift in Sources */,
+				AE5A54E72CC8982C006F29CB /* ParkDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
